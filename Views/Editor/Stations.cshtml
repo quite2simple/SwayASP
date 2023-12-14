@@ -1,0 +1,16 @@
+﻿@model List<SwayASP.Models.Station>
+@{
+    Layout = "_Layout";
+}
+<h2>Stations:</h2>
+<table>
+    <tr><th>Name</th><th>Line</th></tr>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.Name</td>
+            <td>@s.Line</td>
+        </tr>
+    }
+</table>
+

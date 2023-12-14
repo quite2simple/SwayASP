@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+
+}
+
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -11,7 +16,8 @@
     <header>
         <nav>
             <img class="nav-item" src="~/images/logo.svg" />
-            <a class="nav-item">Home</a>
+            <a asp-controller="Home" asp-action="Index" class="nav-item">Home</a>
+            <a asp-controller="Editor" asp-action="Index" class="nav-item">Editor</a>
             <a class="nav-item">Old Maps</a>
             <a class="nav-item">About</a>
         </nav>
