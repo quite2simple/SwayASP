@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="238.08429"
+   height="66.135956"
+   viewBox="0 0 62.993133 17.498472"
+   version="1.1"
+   id="svg3654"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3651">
+    <linearGradient
+       id="linearGradient3675">
+      <stop
+         style="stop-color:#625fff;stop-opacity:1;"
+         offset="0"
+         id="stop3671" />
+      <stop
+         style="stop-color:#e600e8;stop-opacity:1;"
+         offset="1"
+         id="stop3673" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient19392">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop19388" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.5045045;"
+         offset="1"
+         id="stop19390" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient3675"
+       id="linearGradient959"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.81909807,375.14796,0)"
+       x1="-5448.9517"
+       y1="-1478.2163"
+       x2="-5415.9141"
+       y2="-1478.2163" />
+    <linearGradient
+       xlink:href="#linearGradient19392"
+       id="linearGradient961"
+       gradientUnits="userSpaceOnUse"
+       x1="-4289.2739"
+       y1="-938.677"
+       x2="-4300.3799"
+       y2="-929.25226" />
+    <linearGradient
+       xlink:href="#linearGradient19392"
+       id="linearGradient963"
+       gradientUnits="userSpaceOnUse"
+       x1="-4289.2739"
+       y1="-938.70703"
+       x2="-4300.3799"
+       y2="-928.84985" />
+  </defs>
+  <g
+     id="layer4"
+     style="display:inline"
+     transform="translate(1359.975,535.91179)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke-width:0.79375"
+       id="rect1113"
+       width="67.73333"
+       height="33.866665"
+       x="-1362.3451"
+       y="-544.09589" />
+    <g
+       id="g1121"
+       transform="matrix(0.90797987,0,0,0.90797987,-123.45356,-54.654999)"
+       style="stroke-width:1.10135">
+      <g
+         id="g903"
+         transform="matrix(1.6184186,0,0,1.6184186,5610.1503,990.80299)"
+         style="stroke-width:0.680507">
+        <rect
+           style="fill:url(#linearGradient959);fill-opacity:1;stroke:none;stroke-width:0.20503;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="rect893"
+           width="33.037319"
+           height="15.441022"
+           x="-5073.8037"
+           y="-1218.5247"
+           transform="matrix(1,0,-0.63661576,0.77118116,0,0)" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:800;font-stretch:normal;font-size:16.3569px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold Italic';text-align:center;text-anchor:middle;fill:url(#linearGradient961);fill-opacity:1;stroke:none;stroke-width:0.180051;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           x="-4294.8433"
+           y="-928.02441"
+           id="text897"><tspan
+             id="tspan895"
+             style="font-style:italic;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold Italic';fill:url(#linearGradient961);fill-opacity:1;stroke-width:0.180051"
+             x="-4294.8433"
+             y="-928.02441">S</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:800;font-stretch:normal;font-size:6.35px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold Italic';text-align:center;text-anchor:middle;fill:url(#linearGradient963);fill-opacity:1;stroke:none;stroke-width:0.18005;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           x="-4282.4062"
+           y="-929.08447"
+           id="text901"><tspan
+             id="tspan899"
+             style="fill:url(#linearGradient963);fill-opacity:1;stroke-width:0.18005"
+             x="-4282.4062"
+             y="-929.08447">way</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

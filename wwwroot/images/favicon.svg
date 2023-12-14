@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="63.999947"
+   height="63.999989"
+   viewBox="0 0 16.933319 16.93333"
+   version="1.1"
+   id="svg3654"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="10 18 23.svg"
+   inkscape:export-filename="..\hq\10 18 23.png"
+   inkscape:export-xdpi="288"
+   inkscape:export-ydpi="288"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3656"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.69130194"
+     inkscape:cx="841.16645"
+     inkscape:cy="238.68008"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer4">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3595"
+       spacingx="1.5875"
+       spacingy="1.5875"
+       color="#e50000"
+       opacity="0.14901961"
+       empcolor="#e50000"
+       empopacity="0.50588235"
+       empspacing="5"
+       visible="true"
+       dotted="false"
+       snapvisiblegridlinesonly="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3651">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3675">
+      <stop
+         style="stop-color:#625fff;stop-opacity:1;"
+         offset="0"
+         id="stop3671" />
+      <stop
+         style="stop-color:#e600e8;stop-opacity:1;"
+         offset="1"
+         id="stop3673" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient19392">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop19388" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.5045045;"
+         offset="1"
+         id="stop19390" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient19392"
+       id="linearGradient1981"
+       gradientUnits="userSpaceOnUse"
+       x1="-4289.2739"
+       y1="-938.677"
+       x2="-4300.3799"
+       y2="-929.25226"
+       gradientTransform="matrix(1.0210132,0,0,1.0210132,3039.1338,489.17865)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3675"
+       id="linearGradient2463"
+       x1="-1354.4076"
+       y1="-460.75214"
+       x2="-1322.6576"
+       y2="-460.75214"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.53333331,0,0,0.71111113,-632.057,-136.54574)" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="names"
+     style="display:inline"
+     transform="translate(1354.4077,472.65838)">
+    <rect
+       style="fill:url(#linearGradient2463);fill-opacity:1;stroke-width:0.793749"
+       id="rect2432"
+       width="16.933332"
+       height="16.933332"
+       x="-1354.4077"
+       y="-472.65839"
+       ry="8.4666662" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:800;font-stretch:normal;font-size:16.7006px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold Italic';text-align:center;text-anchor:middle;fill:url(#linearGradient1981);fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-1345.9578"
+       y="-458.3465"
+       id="text1969"><tspan
+         sodipodi:role="line"
+         id="tspan1967"
+         style="font-style:italic;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold Italic';fill:url(#linearGradient1981);fill-opacity:1;stroke-width:0.264583"
+         x="-1345.9578"
+         y="-458.3465">S</tspan></text>
+  </g>
+</svg>

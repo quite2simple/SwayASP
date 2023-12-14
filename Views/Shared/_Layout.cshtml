@@ -4,13 +4,25 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Sway - @ViewBag.Title</title>
+    <link rel="icon" href="~/images/favicon.svg" type="image/svg"/>
 </head>
 <body>
     <header>
+        <div name="header-title">
 
+        </div>
+        <nav>
+            <img href="~/images/logo.svg" />
+            <a>Home</a>
+            <a>Old Maps</a>
+            <a>About</a>
+        </nav>
     </header>
-    <div>
+    <main>
         @RenderBody()
-    </div>
+    </main>
+    <footer>
+        <h3>Dec 2023, early version</h3>
+    </footer>
 </body>
 </html>
