@@ -42,5 +42,22 @@ namespace SwayASP.Controllers
             await db.SaveChangesAsync();
             return RedirectToAction("Stations");
         }
+        public async Task<IActionResult> EditLine(int? id)
+        {
+            if (id != null)
+            {
+                Line? line = await db.Lines.FirstOrDefaultAsync(p => p.Id == id);
+                if (line != null)
+                    return View(line);
+            }
+            return NotFound();
+        }
+        [HttpPost]
+        public async Task<IActionResult> EditLine(Line line)
+        {
+            db.Lines.Update(line);
+            await db.SaveChangesAsync();
+            return RedirectToAction("Lines");
+        }
     }
 }

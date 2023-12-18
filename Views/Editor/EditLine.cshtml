@@ -1,0 +1,36 @@
+﻿@model SwayASP.Models.Line
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Edit Line";
+}
+
+<h2>Edit Line</h2>
+
+<form asp-action="EditLine" method="post">
+    <div>
+        <label asp-for="Id">Line ID:</label>
+        <input asp-for="Id" readonly />
+    </div>
+
+    <div>
+        <label asp-for="Name">Line Name:</label>
+        <input asp-for="Name" />
+    </div>
+
+    <div>
+        <label asp-for="OpeningYear">Opened:</label>
+        <input asp-for="OpeningYear" type="number" />
+    </div>
+
+    <div>
+        <label asp-for="StationCount">Stations:</label>
+        <input asp-for="StationCount" type="number" />
+    </div>
+
+    <div>
+        <label asp-for="HasBranches">Has Branches:</label>
+        <input asp-for="HasBranches" type="checkbox" />
+    </div>
+
+    <input class="submit-data" type="submit" value="Update Line" />
+</form>
