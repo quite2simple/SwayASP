@@ -9,7 +9,8 @@ namespace SwayASP.Models
         public DbSet<Line> Lines { get; set; }
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {
-            Database.EnsureCreated();
+            // Database.EnsureCreated();
+            // Database.Migrate();
         }
     }
 }

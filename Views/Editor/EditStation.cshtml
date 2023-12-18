@@ -3,4 +3,54 @@
 @{
     Layout = "_Layout";
 }
+<section>
+    <form asp-action="EditStation" asp-route-id="@Model.Id" method="post">
+        <div>
+            <label asp-for="Id">Station ID:</label>
+            <input class="input-data" asp-for="Id" readonly />
+        </div>
+
+        <div>
+            <label asp-for="Name">Station Name:</label>
+            <input class="input-data" asp-for="Name" />
+        </div>
+
+        <div>
+            <label asp-for="OpeningYear">Opened:</label>
+            <input class="input-data" asp-for="OpeningYear" type="number" />
+        </div>
+
+        <div>
+            <label asp-for="PositionX">Position X:</label>
+            <input class="input-data" asp-for="PositionX" type="number" />
+        </div>
+
+        <div>
+            <label asp-for="PositionY">Position Y:</label>
+            <input class="input-data" asp-for="PositionY" type="number" />
+        </div>
+
+        <div>
+            <label asp-for="Depth">Depth:</label>
+            <input class="input-data" asp-for="Depth" type="number" />
+        </div>
+
+        <div>
+            <label asp-for="PlatformCount">Platforms:</label>
+            <input class="input-data" asp-for="PlatformCount" type="number" />
+        </div>
+
+        <div>
+            <label asp-for="TrackCount">Tracks:</label>
+            <input class="input-data" asp-for="TrackCount" type="number" />
+        </div>
+
+        <div>
+            <label asp-for="LineFK">Line ID:</label>
+            <input class="input-data" asp-for="LineFK" type="number" />
+        </div>
+
+        <input class="submit-data" type="submit" value="Save" />
+    </form>
+</section>
 

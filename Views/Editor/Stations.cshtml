@@ -4,13 +4,27 @@
 }
 <h2>Stations:</h2>
 <table>
-    <tr><th>ID</th><th>Name</th><th>Line</th></tr>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Line</th>
+        <th>Depth</th>
+        <th>Opened</th>
+        <th>Platforms</th>
+        <th>Tracks</th>
+        <th></th>
+    </tr>
     @foreach (var s in Model)
     {
         <tr>
             <td>@s.Id</td>
             <td>@s.Name</td>
             <td>@s.Line.Name</td>
+            <td>@s.Depth</td>
+            <td>@s.OpeningYear</td>
+            <td>@s.PlatformCount</td>
+            <td>@s.TrackCount</td>
+            <td><a asp-action="EditStation" asp-controller="Editor" asp-route-id="@s.Id" class="edit-link">Edit</a></td>
         </tr>
     }
 </table>

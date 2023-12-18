@@ -18,8 +18,8 @@
             <img class="nav-item" src="~/images/logo.svg" />
             <a asp-controller="Home" asp-action="Index" class="nav-item">Home</a>
             <a asp-controller="Editor" asp-action="Index" class="nav-item">Editor</a>
-            <a class="nav-item">Old Maps</a>
-            <a class="nav-item">About</a>
+            <a asp-controller="Home" asp-action="OldMaps" class="nav-item">Old Maps</a>
+            <a asp-controller="Home" asp-action="About" class="nav-item">About</a>
         </nav>
     </header>
     <hr />

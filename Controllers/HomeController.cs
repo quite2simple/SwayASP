@@ -16,12 +16,22 @@ namespace SwayASP.Controllers
             ViewData["Path"] = "";
             return View();
         }
+
         [HttpPost]
         public IActionResult Index(string a, string b)
         {
             Station s1 = db.Stations.First(x => x.Name == a);
             Station s2 = db.Stations.First(x => x.Name == b);
             ViewData["Path"] = PathfinderPlaceholder.Path(s1, s2, db);
+            return View();
+        }
+
+        public IActionResult OldMaps()
+        {
+            return View();
+        }
+        public IActionResult About()
+        {
             return View();
         }
     }

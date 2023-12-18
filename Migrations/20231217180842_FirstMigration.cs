@@ -10,6 +10,7 @@ namespace SwayASP.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            /*
             migrationBuilder.CreateTable(
                 name: "Lines",
                 columns: table => new
@@ -47,16 +48,19 @@ namespace SwayASP.Migrations
                 name: "IX_Stations_LineFK",
                 table: "Stations",
                 column: "LineFK");
+            */
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            /*
             migrationBuilder.DropTable(
                 name: "Stations");
 
             migrationBuilder.DropTable(
                 name: "Lines");
+            */
         }
     }
 }
