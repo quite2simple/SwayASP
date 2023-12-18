@@ -20,6 +20,10 @@ namespace SwayASP.Controllers
         {
             return View(await db.Stations.Include(u => u.Line).ToListAsync());
         }
+        public async Task<IActionResult> Lines()
+        {
+            return View(await db.Lines.ToListAsync());
+        }
 
         public async Task<IActionResult> EditStation(int? id)
         {
