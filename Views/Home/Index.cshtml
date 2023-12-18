@@ -1,16 +1,17 @@
 ﻿
 @{
-	Layout = "_Layout";
+    Layout = "_Layout";
 }
 
 <div id="map-displayer" class="visible-div">
     <form method="post" id="find-station">
         <div>
-            <input type="text" placeholder="From" required>
-            <input type="text" placeholder="To" required>
+            <input name="a" type="text" placeholder="From" required>
+            <input name="b" type="text" placeholder="To" required>
         </div>
         <br>
         <input id="find" type="submit" value="Find">
     </form>
+    <h2>@ViewData["Path"]</h2>
     <img id="sway-map" src="~/images/current/map.png" alt="Sway map"/>
 </div>

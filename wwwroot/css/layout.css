@@ -5,6 +5,11 @@
     margin: 0px;
 }
 
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
 .visible-div {
     background-color: #f7efff;
     border-radius: 1rem;
@@ -37,12 +42,36 @@ h1 {
 
 h2 {
     font-size: 1.25rem;
+    margin-left: 4rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
 }
 
 input {
     border-width: 0px;
     font-size: 1.5rem;
     margin: 7px;
+}
+
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd; 
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
 }
 
 #sway-map {

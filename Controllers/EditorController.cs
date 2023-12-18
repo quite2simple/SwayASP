@@ -18,7 +18,7 @@ namespace SwayASP.Controllers
         }
         public async Task<IActionResult> Stations()
         {
-            return View(await db.Stations.ToListAsync());
+            return View(await db.Stations.Include(u => u.Line).ToListAsync());
         }
     }
 }

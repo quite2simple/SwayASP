@@ -4,12 +4,13 @@
 }
 <h2>Stations:</h2>
 <table>
-    <tr><th>Name</th><th>Line</th></tr>
+    <tr><th>ID</th><th>Name</th><th>Line</th></tr>
     @foreach (var s in Model)
     {
         <tr>
+            <td>@s.Id</td>
             <td>@s.Name</td>
-            <td>@s.Line</td>
+            <td>@s.Line.Name</td>
         </tr>
     }
 </table>

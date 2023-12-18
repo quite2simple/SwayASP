@@ -6,9 +6,11 @@ namespace SwayASP.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public Line Line { get; set; }
+
         [ForeignKey("Line")]
         public int LineFK { get; set; }
+        public Line Line { get; set; }
+
         
     }
 }
