@@ -20,9 +20,16 @@ namespace SwayASP.Controllers
         [HttpPost]
         public IActionResult Index(string a, string b)
         {
-            Station s1 = db.Stations.First(x => x.Name == a);
-            Station s2 = db.Stations.First(x => x.Name == b);
-            ViewData["Path"] = PathfinderPlaceholder.Path(s1, s2, db);
+            Station? s1 = db.Stations.FirstOrDefault(x => x.Name == a);
+            Station? s2 = db.Stations.FirstOrDefault(x => x.Name == b);
+            if (!(s1 == null || s2 == null))
+            {
+                ViewData["Path"] = PathfinderPlaceholder.Path(s1!, s2!, db);
+            }
+            else
+            {
+                ViewData["Path"] = "Incorrect station name(s)";
+            }
             return View();
         }
 
